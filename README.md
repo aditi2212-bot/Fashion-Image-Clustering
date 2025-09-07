@@ -2,18 +2,18 @@
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/fashion-mnist-clustering/blob/main/fashion_mnist_final_project_with_samples.ipynb)
 
-## 📌 Introduction  
+##  Introduction  
 This project applies **both supervised and unsupervised learning** techniques on the **Fashion-MNIST dataset**, which consists of 70,000 grayscale clothing images (28×28 pixels) across 10 categories (T-shirt, Trouser, Dress, etc.).  
 
 The main objectives are:  
-- 🔹 Build and evaluate **classification models** (Logistic Regression, Elastic Net).  
-- 🔹 Perform **unsupervised clustering** using CNN feature extraction + PCA + KMeans.  
-- 🔹 Compare model performance using **accuracy, precision, recall, F1, ARI, and NMI**.  
-- 🔹 Provide **visual insights** with bar charts, confusion matrices, and cluster samples.  
+-  Build and evaluate **classification models** (Logistic Regression, Elastic Net).  
+-  Perform **unsupervised clustering** using CNN feature extraction + PCA + KMeans.  
+-  Compare model performance using **accuracy, precision, recall, F1, ARI, and NMI**.  
+-  Provide **visual insights** with bar charts, confusion matrices, and cluster samples.  
 
 ---
 
-## 🎯 Business Use Case  
+##  Business Use Case  
 Such models can be applied in:  
 - **E-commerce**: Automatically grouping clothing items into categories.  
 - **Recommendation Systems**: Suggesting similar products to customers.  
@@ -21,7 +21,7 @@ Such models can be applied in:
 
 ---
 
-## ⚙️ Methodology  
+##  Methodology  
 1. **Data Preprocessing**  
    - Loaded Fashion-MNIST dataset  
    - Converted grayscale images to RGB for CNN  
@@ -48,7 +48,7 @@ Such models can be applied in:
 
 ---
 
-## 📊 Results  
+##  Results  
 
 | Model                          | Score   |
 |--------------------------------|---------|
@@ -63,7 +63,7 @@ Such models can be applied in:
 
 ---
 
-## 🛠️ Requirements  
+##  Requirements  
 - Python 3.x  
 - TensorFlow  
 - scikit-learn  
@@ -71,6 +71,4 @@ Such models can be applied in:
 - seaborn  
 - pandas  
 
-Install dependencies:
-```bash
-pip install tensorflow scikit-learn matplotlib seaborn pandas
+
