@@ -11,42 +11,35 @@ The main objectives are:
 -  Compare model performance using **accuracy, precision, recall, F1, ARI, and NMI**.  
 -  Provide **visual insights** with bar charts, confusion matrices, and cluster samples.  
 
----
-
 ##  Business Use Case  
 Such models can be applied in:  
 - **E-commerce**: Automatically grouping clothing items into categories.  
 - **Recommendation Systems**: Suggesting similar products to customers.  
 - **Data Cleaning**: Detecting mislabeled items in large product catalogs.  
 
----
 
 ##  Methodology  
 1. **Data Preprocessing**  
    - Loaded Fashion-MNIST dataset  
    - Converted grayscale images to RGB for CNN  
    - Resized to 96×96 for feature extraction  
-
 2. **Exploratory Data Analysis (EDA)**  
    - Label distribution bar chart  
    - Sample original clothing images  
-
 3. **Models**  
    - Logistic Regression (baseline)  
    - Elastic Net Logistic Regression (regularized, improved accuracy)  
    - CNN + PCA + KMeans (unsupervised clustering)  
-
 4. **Evaluation Metrics**  
    - Accuracy, Precision, Recall, F1 (classification models)  
    - Adjusted Rand Index (ARI), Normalized Mutual Information (NMI) (clustering)  
-
 5. **Visualizations**  
    - Label distribution (UDI analysis)  
    - Cluster distribution bar chart  
    - Confusion matrix heatmap  
    - Cluster sample images with majority label  
 
----
+
 
 ##  Results  
 
@@ -61,7 +54,6 @@ Such models can be applied in:
 - Elastic Net improved performance to ~75%  
 - CNN + PCA + KMeans formed meaningful clusters (e.g., trousers grouped together)  
 
----
 
 ##  Requirements  
 - Python 3.x  
