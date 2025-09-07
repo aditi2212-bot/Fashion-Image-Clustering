@@ -1,6 +1,6 @@
 # 🧥 Fashion-MNIST Classification & Clustering  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/your-username/fashion-mnist-clustering/blob/main/fashion_mnist_final_project_with_samples.ipynb)
+[![Open In Colab]https://colab.research.google.com/drive/1OUGz2DXUXEbcJq64MWQ6OD8RgNseiEO9?usp=sharing
 
 ##  Introduction  
 This project applies **both supervised and unsupervised learning** techniques on the **Fashion-MNIST dataset**, which consists of 70,000 grayscale clothing images (28×28 pixels) across 10 categories (T-shirt, Trouser, Dress, etc.).  
