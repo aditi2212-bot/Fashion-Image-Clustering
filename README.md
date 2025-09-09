@@ -45,8 +45,9 @@ Such models can be applied in:
 
 | Model                          | Score   |
 |--------------------------------|---------|
-| Logistic Regression (Accuracy) | ~71%    |
-| Elastic Net (Accuracy)         | ~75%    |
+| Logistic Regression (Accuracy) | 0.91%    |
+| Elastic Net (Accuracy)         | 0.89%    |
+|XG BOOST Model                  | 0.96%
 | CNN + PCA + KMeans (ARI)       | ~0.45–0.50 |
 | CNN + PCA + KMeans (NMI)       | ~0.50–0.55 |
 
